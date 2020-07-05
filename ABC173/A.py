@@ -5,8 +5,7 @@
 
 #@njit
 def main():
-    N,K = map(int, input().split())
-    A = np.array(list(map(int, input().split())))
-    
+    N = int(input())
+    print((1000-N%1000)%1000)
 
 main()
