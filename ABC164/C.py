@@ -5,8 +5,10 @@
 
 #@njit
 def main():
-    N,K = map(int, input().split())
-    A = np.array(list(map(int, input().split())))
-    
+    N = int(input())
+    s = set()
+    for _ in range(N):
+        s.add(input())
+    print(len(s))
 
 main()
